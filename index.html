@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Naruto Wiki</title>
+        <script src="https://kit.fontawesome.com/7e64b27dcb.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <body>   
+        <div id="contenedor">
+
+            <header>
+                <div class="logo">
+                    <h1>Naruto Wiki</h1>
+                    <p>Personajes de Naruto</p>
+                </div>
+                <form action="">
+                    <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+                </form>
+                <div class="categorias" id="categorias">
+                    <a href="#" class="activo">Todos</a>
+                    <a href="#">Akatsuki</a>
+                    <a href="#">Aldea de Konoha</a>
+                    <a href="#">Aldea de las Rocas</a>
+                    <a href="#">Aldea de las Nubes</a>
+                    <a href="#">Aldea de la Niebla</a>
+                    <a href="#">Aldea de la Arena</a>
+                </div>
+            </header>
+            <section class="grid" id="grid">
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="konoha uchiha sasuke"
+                    data-descripcion="Hola que onda pa"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Sasuke.png" alt="">
+                    </div>
+                </div> 
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="konoha uzumaki naruto 7colas"
+                    data-descripcion="Hola que onda pa"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Naruto.png" alt="">
+                    </div>
+                </div> 
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="konoha hatake hokage"
+                    data-descripcion="Hola que onda pa"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Kakashi.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de la niebla" 
+                    data-etiquetas="niebla espadachin"
+                    data-descripcion="Hola que onda pa"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Zabuza.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de las nubes" 
+                    data-etiquetas="nubes 6colas"
+                    data-descripcion="Hola que onda pa"
+                >
+                    <div class="item-contenido">
+                        <img src="img/KillerBee.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de la arena" 
+                    data-etiquetas="Arena"
+                    data-descripcion="Hola que onda pa"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Gaara.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de las rocas" 
+                    data-etiquetas=""
+                    data-descripcion="Hola que onda pa"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Deidara.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="uchiha Akatsuki"
+                    data-descripcion="Yo exploto ashe"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Itachi.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="kiba"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Kiba.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="anbu konoha yamato"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Yamato.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="hokage tsunade kage"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Tsunade.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="tobirama hokage kage"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Tobirama.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="tenten"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Tenten.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de la arena" 
+                    data-etiquetas="temari"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Temari.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="shino"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Shino.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="shikamaru asistentehokage"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Shikamaru.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de la arena" 
+                    data-etiquetas="sasori akatsuki"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Sasori.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="uchiha sarada"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Sarada.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="sakura haruno"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Sakura.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="anbu sai"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Sai.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="rock lee"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/RockLee.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="orochimaru"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Orochimaru.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de la niebla" 
+                    data-etiquetas="pain akatsuki"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Pain.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="obito uchiha"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Obito.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="neji hyuga"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Neji.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="minato hokage kage"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Minato.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="might guy"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/MightGuy.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="madara uchiha sharingan"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Madara.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="kushina uzumaki"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Kushina.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="konohamaru"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Konohamaru.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de la niebla" 
+                    data-etiquetas="konan akatsuki"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Konan.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de la niebla" 
+                    data-etiquetas="kisame akatsuki"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Kisame.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="iruka"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Iruka.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="karin uzumaki"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Karin.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de la arena" 
+                    data-etiquetas="kankuro"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Kankuro.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de las rocas" 
+                    data-etiquetas="kakuzu akatsuki"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Kakuzu.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="dioses" 
+                    data-etiquetas="kaguya otsutsuki"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Kaguya.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="kabuto"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Kabuto.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="jiraiya"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Jiraiya.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="jigen"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Jigen.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="ino"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Ino.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="hinata hyuga"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Hinata.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="akatsuki" 
+                    data-etiquetas="Hidan akatsuki"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Hidan.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="hashirama senju hokage kage"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Hashirama.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de la niebla" 
+                    data-etiquetas="haku"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Haku.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="dioses" 
+                    data-etiquetas="hagoromo otsutsuki"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Hagoromo.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="danzo anbu"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Danzo.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="choji"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Choji.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="boruto uzumaki"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Boruto.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="asuma"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/Asuma.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-categoria="aldea de konoha" 
+                    data-etiquetas="hokage kage"
+                    data-descripcion="Descripcion Proximamente"
+                >
+                    <div class="item-contenido">
+                        <img src="img/3Hokage.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="overlay" id="overlay">
+                <div class="contenedor-img">
+                    <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                    <img src="img/Sasuke.png" alt="">
+                </div>
+                <p class="descripcion"> Q onda maestro ashe</p>
+            </section>
+            <footer class="">
+                <div class="redes-sociales">
+                    <div class="contenedor-icono">
+                        <a href="https://www.twitter.com/Rozse_" target="_BLANK" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>  
+                    <div class="contenedor-icono">
+                        <a href="https://www.facebook.com/mono.roman.161/" target="_BLANK" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div> 
+                    <div class="contenedor-icono">
+                        <a href="https://www.instagram.com/frannrossi" target="_BLANK" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>    
+                </div>
+                <div class="creado-por">
+                    <p>Sitio diseñado por <a href="https://www.instagram.com/frannrossi" target="_blank">Franco R Rossi</a> - Todos los derechos reservados &copy 2021</p>
+                </div>
+            </footer>
+        </div>
+        <script src="web-animations.min.js"></script>
+        <script src="muuri.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
